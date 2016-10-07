@@ -1,0 +1,4 @@
+requires 'LWP::UserAgent';
+requires 'JSON::MaybeXS';
+requires 'Perl::Tidy';
+requires 'Data::Dumper';
