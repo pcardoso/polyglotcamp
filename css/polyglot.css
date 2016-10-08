@@ -1,0 +1,470 @@
+/*luis*/
+/* line 7, ../sass/polyglot.scss */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 13, ../sass/polyglot.scss */
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* line 17, ../sass/polyglot.scss */
+hr {
+  border-color: #F05F40;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+/* line 23, ../sass/polyglot.scss */
+hr.light {
+  border-color: white;
+}
+
+/* line 27, ../sass/polyglot.scss */
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #F05F40;
+}
+/* line 30, ../sass/polyglot.scss */
+a:hover, a:focus {
+  color: #eb3812;
+}
+/* line 34, ../sass/polyglot.scss */
+a.features-box {
+  cursor: default;
+}
+/* line 36, ../sass/polyglot.scss */
+a.features-box:hover > .overlay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #000 !important;
+  opacity: 0.2;
+  transition: all 0.5s ease;
+}
+
+/* line 47, ../sass/polyglot.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* line 56, ../sass/polyglot.scss */
+h1.logo {
+  background: url(../img/logo.svg) no-repeat;
+  width: 480px;
+  height: 166px;
+  margin: 0 auto;
+  text-indent: -5000px;
+  background-size: 100%;
+  margin-bottom: 1em;
+}
+/* line 65, ../sass/polyglot.scss */
+h1#homeHeading {
+  margin-top: 0.4em;
+}
+
+/* line 70, ../sass/polyglot.scss */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* line 75, ../sass/polyglot.scss */
+i.getit {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  background-position: center;
+}
+/* line 81, ../sass/polyglot.scss */
+i.getit.apple {
+  background: url(../img/apple.svg) no-repeat;
+}
+/* line 84, ../sass/polyglot.scss */
+i.getit.android {
+  background: url(../img/android.svg) no-repeat;
+}
+/* line 87, ../sass/polyglot.scss */
+i.getit.github {
+  background: url(../img/github.svg) no-repeat;
+}
+/* line 90, ../sass/polyglot.scss */
+i.getit.download {
+  background: url(../img/download.svg) no-repeat;
+}
+
+/* line 94, ../sass/polyglot.scss */
+.bg-primary {
+  background-color: #F05F40;
+}
+
+/* line 98, ../sass/polyglot.scss */
+.bg-dark {
+  background-color: #222222;
+  color: white;
+}
+
+/* line 103, ../sass/polyglot.scss */
+.text-faded {
+  color: fade(white, 70%);
+}
+
+/* line 107, ../sass/polyglot.scss */
+section {
+  padding: 100px 0;
+}
+
+/* line 111, ../sass/polyglot.scss */
+aside {
+  padding: 50px 0;
+}
+
+/* line 115, ../sass/polyglot.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 120, ../sass/polyglot.scss */
+.navbar {
+  border-bottom: 1px solid #4d4d00;
+}
+
+/* line 124, ../sass/polyglot.scss */
+.navbar-default {
+  background-color: white;
+  border-color: fade(#222222, 5%);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+/* line 129, ../sass/polyglot.scss */
+.navbar-default .navbar-header .navbar-brand {
+  color: #F05F40;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 134, ../sass/polyglot.scss */
+.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
+  color: #eb3812;
+}
+/* line 139, ../sass/polyglot.scss */
+.navbar-default .navbar-header .navbar-toggle {
+  font-weight: 700;
+  font-size: 12px;
+  color: #222222;
+  text-transform: uppercase;
+}
+/* line 147, ../sass/polyglot.scss */
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  color: #4d4d00;
+}
+/* line 153, ../sass/polyglot.scss */
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #F05F40;
+}
+/* line 158, ../sass/polyglot.scss */
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #F05F40 !important;
+  background-color: transparent;
+}
+/* line 162, ../sass/polyglot.scss */
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  /* line 124, ../sass/polyglot.scss */
+  .navbar-default {
+    background-color: transparent;
+    border-color: fade(white, 30%);
+  }
+  /* line 172, ../sass/polyglot.scss */
+  .navbar-default .navbar-header .navbar-brand {
+    color: fade(white, 70%);
+  }
+  /* line 174, ../sass/polyglot.scss */
+  .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
+    color: white;
+  }
+  /* line 179, ../sass/polyglot.scss */
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: fade(white, 70%);
+  }
+  /* line 182, ../sass/polyglot.scss */
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+  /* line 186, ../sass/polyglot.scss */
+  .navbar-default.affix {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-color: fade(#222222, 5%);
+  }
+  /* line 189, ../sass/polyglot.scss */
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #F05F40;
+    font-size: 14px;
+  }
+  /* line 192, ../sass/polyglot.scss */
+  .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #eb3812;
+  }
+  /* line 197, ../sass/polyglot.scss */
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #222222;
+  }
+  /* line 200, ../sass/polyglot.scss */
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #F05F40;
+  }
+}
+
+/* line 210, ../sass/polyglot.scss */
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("../img/header.jpg");
+  text-align: center;
+  color: white;
+}
+/* line 219, ../sass/polyglot.scss */
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+/* line 225, ../sass/polyglot.scss */
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+/* line 232, ../sass/polyglot.scss */
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+/* line 235, ../sass/polyglot.scss */
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: fade(white, 70%);
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  /* line 210, ../sass/polyglot.scss */
+  header {
+    min-height: 100%;
+  }
+  /* line 245, ../sass/polyglot.scss */
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+  /* line 252, ../sass/polyglot.scss */
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 256, ../sass/polyglot.scss */
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+  /* line 259, ../sass/polyglot.scss */
+  header .header-content .header-content-inner p {
+    font-size: 18px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 272, ../sass/polyglot.scss */
+.section-heading {
+  margin-top: 0;
+}
+
+/* line 276, ../sass/polyglot.scss */
+.service-box {
+  max-width: 400px;
+  margin: 50px auto 0;
+}
+@media (min-width: 992px) {
+  /* line 276, ../sass/polyglot.scss */
+  .service-box {
+    margin: 20px auto 0;
+  }
+}
+/* line 282, ../sass/polyglot.scss */
+.service-box p {
+  margin-bottom: 0;
+}
+
+/* line 287, ../sass/polyglot.scss */
+.features-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto;
+}
+/* line 292, ../sass/polyglot.scss */
+.features-box .features-box-caption {
+  color: white;
+  opacity: 0;
+  display: block;
+  background: fade(#F05F40, 90%);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+/* line 303, ../sass/polyglot.scss */
+.features-box .features-box-caption .features-box-caption-content {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* line 309, ../sass/polyglot.scss */
+.features-box .features-box-caption .features-box-caption-content .project-category,
+.features-box .features-box-caption .features-box-caption-content .project-name {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding: 0 15px;
+  text-shadow: 0px 0px 11px black;
+}
+/* line 315, ../sass/polyglot.scss */
+.features-box .features-box-caption .features-box-caption-content .project-category {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  text-shadow: 0px 0px 11px black;
+}
+/* line 321, ../sass/polyglot.scss */
+.features-box .features-box-caption .features-box-caption-content .project-name {
+  font-size: 18px;
+}
+/* line 327, ../sass/polyglot.scss */
+.features-box:hover .features-box-caption {
+  opacity: 1;
+}
+/* line 331, ../sass/polyglot.scss */
+.features-box:focus {
+  outline: none;
+}
+@media (min-width: 768px) {
+  /* line 337, ../sass/polyglot.scss */
+  .features-box .features-box-caption .features-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  /* line 340, ../sass/polyglot.scss */
+  .features-box .features-box-caption .features-box-caption-content .project-name {
+    font-size: 22px;
+  }
+}
+
+/* line 349, ../sass/polyglot.scss */
+.call-to-action h2 {
+  margin: 0 auto 20px;
+}
+
+/* line 355, ../sass/polyglot.scss */
+.text-primary {
+  color: #F05F40;
+}
+
+/* line 359, ../sass/polyglot.scss */
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* line 372, ../sass/polyglot.scss */
+.btn-primary .button-variant {
+  white: #F05F40 #F05F40;
+}
+
+/* line 375, ../sass/polyglot.scss */
+.btn {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  border: none;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 383, ../sass/polyglot.scss */
+.btn-xl {
+  padding: 15px 30px;
+}
+
+/* line 389, ../sass/polyglot.scss */
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+
+/* line 395, ../sass/polyglot.scss */
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+
+/* line 401, ../sass/polyglot.scss */
+img::selection {
+  color: white;
+  background: transparent;
+}
+
+/* line 406, ../sass/polyglot.scss */
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+
+/* line 411, ../sass/polyglot.scss */
+body {
+  webkit-tap-highlight-color: #222222;
+}
