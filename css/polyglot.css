@@ -1,44 +1,43 @@
-/*luis*/
-/* line 7, ../sass/polyglot.scss */
+/* line 5, ../sass/polyglot.scss */
 html,
 body {
   height: 100%;
   width: 100%;
 }
 
-/* line 13, ../sass/polyglot.scss */
+/* line 11, ../sass/polyglot.scss */
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* line 17, ../sass/polyglot.scss */
+/* line 15, ../sass/polyglot.scss */
 hr {
   border-color: #F05F40;
   border-width: 3px;
   max-width: 50px;
 }
 
-/* line 23, ../sass/polyglot.scss */
+/* line 21, ../sass/polyglot.scss */
 hr.light {
   border-color: white;
 }
 
-/* line 27, ../sass/polyglot.scss */
+/* line 25, ../sass/polyglot.scss */
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #F05F40;
 }
-/* line 30, ../sass/polyglot.scss */
+/* line 28, ../sass/polyglot.scss */
 a:hover, a:focus {
   color: #eb3812;
 }
-/* line 34, ../sass/polyglot.scss */
+/* line 32, ../sass/polyglot.scss */
 a.features-box {
   cursor: default;
 }
-/* line 36, ../sass/polyglot.scss */
+/* line 34, ../sass/polyglot.scss */
 a.features-box:hover > .overlay {
   width: 100%;
   height: 100%;
@@ -48,7 +47,7 @@ a.features-box:hover > .overlay {
   transition: all 0.5s ease;
 }
 
-/* line 47, ../sass/polyglot.scss */
+/* line 45, ../sass/polyglot.scss */
 h1,
 h2,
 h3,
@@ -58,7 +57,7 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* line 56, ../sass/polyglot.scss */
+/* line 54, ../sass/polyglot.scss */
 h1.logo {
   background: url(../img/logo.svg) no-repeat;
   width: 480px;
@@ -68,19 +67,19 @@ h1.logo {
   background-size: 100%;
   margin-bottom: 1em;
 }
-/* line 65, ../sass/polyglot.scss */
+/* line 63, ../sass/polyglot.scss */
 h1#homeHeading {
   margin-top: 0.4em;
 }
 
-/* line 70, ../sass/polyglot.scss */
+/* line 68, ../sass/polyglot.scss */
 p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
-/* line 75, ../sass/polyglot.scss */
+/* line 73, ../sass/polyglot.scss */
 i.getit {
   width: 100px;
   height: 100px;
@@ -88,60 +87,60 @@ i.getit {
   margin: 0 auto;
   background-position: center center !important;
 }
-/* line 81, ../sass/polyglot.scss */
+/* line 79, ../sass/polyglot.scss */
 i.getit.apple {
   background: url(../img/apple.svg) no-repeat;
 }
-/* line 84, ../sass/polyglot.scss */
+/* line 82, ../sass/polyglot.scss */
 i.getit.android {
   background: url(../img/android.svg) no-repeat;
 }
-/* line 87, ../sass/polyglot.scss */
+/* line 85, ../sass/polyglot.scss */
 i.getit.github {
   background: url(../img/github.svg) no-repeat;
 }
-/* line 90, ../sass/polyglot.scss */
+/* line 88, ../sass/polyglot.scss */
 i.getit.download {
   background: url(../img/download.svg) no-repeat;
 }
 
-/* line 94, ../sass/polyglot.scss */
+/* line 92, ../sass/polyglot.scss */
 .bg-primary {
   background-color: #F05F40;
 }
 
-/* line 98, ../sass/polyglot.scss */
+/* line 96, ../sass/polyglot.scss */
 .bg-dark {
   background-color: #222222;
   color: white;
 }
 
-/* line 103, ../sass/polyglot.scss */
+/* line 101, ../sass/polyglot.scss */
 .text-faded {
   color: fade(white, 70%);
 }
 
-/* line 107, ../sass/polyglot.scss */
+/* line 105, ../sass/polyglot.scss */
 section {
   padding: 100px 0;
 }
 
-/* line 111, ../sass/polyglot.scss */
+/* line 109, ../sass/polyglot.scss */
 aside {
   padding: 50px 0;
 }
 
-/* line 115, ../sass/polyglot.scss */
+/* line 113, ../sass/polyglot.scss */
 .no-padding {
   padding: 0;
 }
 
-/* line 120, ../sass/polyglot.scss */
+/* line 118, ../sass/polyglot.scss */
 .navbar {
   border-bottom: 1px solid #4d4d00;
 }
 
-/* line 124, ../sass/polyglot.scss */
+/* line 122, ../sass/polyglot.scss */
 .navbar-default {
   background-color: white;
   border-color: fade(#222222, 5%);
@@ -150,25 +149,25 @@ aside {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
-/* line 129, ../sass/polyglot.scss */
+/* line 127, ../sass/polyglot.scss */
 .navbar-default .navbar-header .navbar-brand {
   color: #F05F40;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-/* line 134, ../sass/polyglot.scss */
+/* line 132, ../sass/polyglot.scss */
 .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
   color: #eb3812;
 }
-/* line 139, ../sass/polyglot.scss */
+/* line 137, ../sass/polyglot.scss */
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
   color: #222222;
   text-transform: uppercase;
 }
-/* line 147, ../sass/polyglot.scss */
+/* line 145, ../sass/polyglot.scss */
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
@@ -176,73 +175,73 @@ aside {
   font-size: 13px;
   color: #4d4d00;
 }
-/* line 153, ../sass/polyglot.scss */
+/* line 151, ../sass/polyglot.scss */
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
   color: #F05F40;
 }
-/* line 158, ../sass/polyglot.scss */
+/* line 156, ../sass/polyglot.scss */
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
   color: #F05F40 !important;
   background-color: transparent;
 }
-/* line 162, ../sass/polyglot.scss */
+/* line 160, ../sass/polyglot.scss */
 .navbar-default .nav > li.active > a:hover,
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
 @media (min-width: 768px) {
-  /* line 124, ../sass/polyglot.scss */
+  /* line 122, ../sass/polyglot.scss */
   .navbar-default {
     background-color: transparent;
     border-color: fade(white, 30%);
   }
-  /* line 172, ../sass/polyglot.scss */
+  /* line 170, ../sass/polyglot.scss */
   .navbar-default .navbar-header .navbar-brand {
     color: fade(white, 70%);
   }
-  /* line 174, ../sass/polyglot.scss */
+  /* line 172, ../sass/polyglot.scss */
   .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
     color: white;
   }
-  /* line 179, ../sass/polyglot.scss */
+  /* line 177, ../sass/polyglot.scss */
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     color: fade(white, 70%);
   }
-  /* line 182, ../sass/polyglot.scss */
+  /* line 180, ../sass/polyglot.scss */
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
   }
-  /* line 186, ../sass/polyglot.scss */
+  /* line 184, ../sass/polyglot.scss */
   .navbar-default.affix {
     background-color: rgba(255, 255, 255, 0.95);
     border-color: fade(#222222, 5%);
   }
-  /* line 189, ../sass/polyglot.scss */
+  /* line 187, ../sass/polyglot.scss */
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #F05F40;
     font-size: 14px;
   }
-  /* line 192, ../sass/polyglot.scss */
+  /* line 190, ../sass/polyglot.scss */
   .navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
     color: #eb3812;
   }
-  /* line 197, ../sass/polyglot.scss */
+  /* line 195, ../sass/polyglot.scss */
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
     color: #222222;
   }
-  /* line 200, ../sass/polyglot.scss */
+  /* line 198, ../sass/polyglot.scss */
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #F05F40;
   }
 }
 
-/* line 210, ../sass/polyglot.scss */
+/* line 208, ../sass/polyglot.scss */
 header {
   position: relative;
   width: 100%;
@@ -256,14 +255,14 @@ header {
   text-align: center;
   color: white;
 }
-/* line 219, ../sass/polyglot.scss */
+/* line 217, ../sass/polyglot.scss */
 header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
 }
-/* line 225, ../sass/polyglot.scss */
+/* line 223, ../sass/polyglot.scss */
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
@@ -271,11 +270,11 @@ header .header-content .header-content-inner h1 {
   margin-bottom: 0;
   font-size: 30px;
 }
-/* line 232, ../sass/polyglot.scss */
+/* line 230, ../sass/polyglot.scss */
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
-/* line 235, ../sass/polyglot.scss */
+/* line 233, ../sass/polyglot.scss */
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: fade(white, 70%);
@@ -283,11 +282,11 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
-  /* line 210, ../sass/polyglot.scss */
+  /* line 208, ../sass/polyglot.scss */
   header {
     min-height: 100%;
   }
-  /* line 245, ../sass/polyglot.scss */
+  /* line 243, ../sass/polyglot.scss */
   header .header-content {
     position: absolute;
     top: 50%;
@@ -296,17 +295,17 @@ header .header-content .header-content-inner p {
     transform: translateY(-50%);
     padding: 0 50px;
   }
-  /* line 252, ../sass/polyglot.scss */
+  /* line 250, ../sass/polyglot.scss */
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 256, ../sass/polyglot.scss */
+  /* line 254, ../sass/polyglot.scss */
   header .header-content .header-content-inner h1 {
     font-size: 50px;
   }
-  /* line 259, ../sass/polyglot.scss */
+  /* line 257, ../sass/polyglot.scss */
   header .header-content .header-content-inner p {
     font-size: 18px;
     max-width: 80%;
@@ -315,35 +314,35 @@ header .header-content .header-content-inner p {
   }
 }
 
-/* line 272, ../sass/polyglot.scss */
+/* line 270, ../sass/polyglot.scss */
 .section-heading {
   margin-top: 0;
 }
 
-/* line 276, ../sass/polyglot.scss */
+/* line 274, ../sass/polyglot.scss */
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
 }
 @media (min-width: 992px) {
-  /* line 276, ../sass/polyglot.scss */
+  /* line 274, ../sass/polyglot.scss */
   .service-box {
     margin: 20px auto 0;
   }
 }
-/* line 282, ../sass/polyglot.scss */
+/* line 280, ../sass/polyglot.scss */
 .service-box p {
   margin-bottom: 0;
 }
 
-/* line 287, ../sass/polyglot.scss */
+/* line 285, ../sass/polyglot.scss */
 .features-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
 }
-/* line 292, ../sass/polyglot.scss */
+/* line 290, ../sass/polyglot.scss */
 .features-box .features-box-caption {
   color: white;
   opacity: 0;
@@ -358,7 +357,7 @@ header .header-content .header-content-inner p {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
-/* line 303, ../sass/polyglot.scss */
+/* line 301, ../sass/polyglot.scss */
 .features-box .features-box-caption .features-box-caption-content {
   width: 100%;
   text-align: center;
@@ -366,65 +365,65 @@ header .header-content .header-content-inner p {
   top: 50%;
   transform: translateY(-50%);
 }
-/* line 309, ../sass/polyglot.scss */
+/* line 307, ../sass/polyglot.scss */
 .features-box .features-box-caption .features-box-caption-content .project-category,
 .features-box .features-box-caption .features-box-caption-content .project-name {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   padding: 0 15px;
   text-shadow: 0px 0px 11px black;
 }
-/* line 315, ../sass/polyglot.scss */
+/* line 313, ../sass/polyglot.scss */
 .features-box .features-box-caption .features-box-caption-content .project-category {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
   text-shadow: 0px 0px 11px black;
 }
-/* line 321, ../sass/polyglot.scss */
+/* line 319, ../sass/polyglot.scss */
 .features-box .features-box-caption .features-box-caption-content .project-name {
   font-size: 18px;
 }
-/* line 327, ../sass/polyglot.scss */
+/* line 325, ../sass/polyglot.scss */
 .features-box:hover .features-box-caption {
   opacity: 1;
 }
-/* line 331, ../sass/polyglot.scss */
+/* line 329, ../sass/polyglot.scss */
 .features-box:focus {
   outline: none;
 }
 @media (min-width: 768px) {
-  /* line 337, ../sass/polyglot.scss */
+  /* line 335, ../sass/polyglot.scss */
   .features-box .features-box-caption .features-box-caption-content .project-category {
     font-size: 16px;
   }
-  /* line 340, ../sass/polyglot.scss */
+  /* line 338, ../sass/polyglot.scss */
   .features-box .features-box-caption .features-box-caption-content .project-name {
     font-size: 22px;
   }
 }
 
-/* line 349, ../sass/polyglot.scss */
+/* line 347, ../sass/polyglot.scss */
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
 
-/* line 355, ../sass/polyglot.scss */
+/* line 353, ../sass/polyglot.scss */
 .text-primary {
   color: #F05F40;
 }
 
-/* line 359, ../sass/polyglot.scss */
+/* line 357, ../sass/polyglot.scss */
 .no-gutter > [class*='col-'] {
   padding-right: 0;
   padding-left: 0;
 }
 
-/* line 372, ../sass/polyglot.scss */
+/* line 370, ../sass/polyglot.scss */
 .btn-primary .button-variant {
   white: #F05F40 #F05F40;
 }
 
-/* line 375, ../sass/polyglot.scss */
+/* line 373, ../sass/polyglot.scss */
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
@@ -433,38 +432,38 @@ header .header-content .header-content-inner p {
   text-transform: uppercase;
 }
 
-/* line 383, ../sass/polyglot.scss */
+/* line 381, ../sass/polyglot.scss */
 .btn-xl {
   padding: 15px 30px;
 }
 
-/* line 389, ../sass/polyglot.scss */
+/* line 387, ../sass/polyglot.scss */
 ::-moz-selection {
   color: white;
   text-shadow: none;
   background: #222222;
 }
 
-/* line 395, ../sass/polyglot.scss */
+/* line 393, ../sass/polyglot.scss */
 ::selection {
   color: white;
   text-shadow: none;
   background: #222222;
 }
 
-/* line 401, ../sass/polyglot.scss */
+/* line 399, ../sass/polyglot.scss */
 img::selection {
   color: white;
   background: transparent;
 }
 
-/* line 406, ../sass/polyglot.scss */
+/* line 404, ../sass/polyglot.scss */
 img::-moz-selection {
   color: white;
   background: transparent;
 }
 
-/* line 411, ../sass/polyglot.scss */
+/* line 409, ../sass/polyglot.scss */
 body {
   webkit-tap-highlight-color: #222222;
 }
