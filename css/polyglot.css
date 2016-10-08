@@ -86,7 +86,7 @@ i.getit {
   height: 100px;
   display: block;
   margin: 0 auto;
-  background-position: center;
+  background-position: center center !important;
 }
 /* line 81, ../sass/polyglot.scss */
 i.getit.apple {

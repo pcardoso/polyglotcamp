@@ -2,3 +2,7 @@ node_modules
 .npm-debug.log
 tmp
 package.json
+styles/.sass-cache
+styles/.sass-cache/*
+.sass-cache/
+*.css.map

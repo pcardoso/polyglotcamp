@@ -77,7 +77,7 @@ i.getit {
     height: 100px;
     display: block;
     margin: 0 auto;
-    background-position: center;
+    background-position: center center !important;
     &.apple {
         background:url(../img/apple.svg) no-repeat;
     }
